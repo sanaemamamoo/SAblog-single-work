@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@500;800&display=swap");
+img {
+  width: 100%;
+}
+
+.inner {
+  padding: 0 87px;
+}
+
+@media (max-width: 767px) {
+  .inner {
+    padding: 0 16px;
+  }
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #333;
+}
+
+.util-btn {
+  padding: 20px 75px;
+  color: #fff;
+  background: #01B3A7;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.header-upper {
+  background: #D81F32;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .header-upper {
+    display: block;
+    padding: 18px 0 13px;
+  }
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  padding: 39px 0 30px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+    letter-spacing: -0.05em;
+  }
+}
+
+.subtitle {
+  font-size: 14px;
+  padding-left: 43px;
+  line-height: 30px;
+  padding-top: 14px;
+}
+
+@media (max-width: 767px) {
+  .subtitle {
+    font-size: 10px;
+    padding: 0;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+
+.header-nav-lists {
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav-item {
+  padding: 39px 37px 39px 0;
+}
+
+.header-nav-item:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 767px) {
+  .header-nav-item:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-nav-item:nth-child(n+4) {
+    display: none;
+  }
+}
+
+.header-nav-item a {
+  color: #333;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .header-nav-item {
+    padding: 4px 16px;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.header-icon {
+  padding-right: 8px;
+}
+
+.header-bottom-title {
+  text-align: center;
+  padding: 82px 0 77px;
+  font-size: 42px;
+  font-weight: 700;
+  background: #efefef;
+}
+
+.header-bottom-title i {
+  color: #D81F32;
+  font-size: 41px;
+  padding-right: 24px;
+}
+
+@media (max-width: 767px) {
+  .header-bottom-title i {
+    font-size: 28px;
+    padding-right: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-bottom-title {
+    font-size: 30px;
+    padding: 40px 40px 40px 0;
+  }
+}
+
+main {
+  margin: 0 40px 120px;
+}
+
+@media (max-width: 767px) {
+  main {
+    margin: 0;
+  }
+}
+
+.breadcrumb {
+  color: #8D8D8D;
+  padding-top: 12px;
+  padding-bottom: 42px;
+  font-size: 13px;
+  margin-left: 107px;
+}
+
+.breadcrumb a {
+  color: #8D8D8D;
+}
+
+@media (max-width: 767px) {
+  .breadcrumb {
+    margin-left: 16px;
+  }
+}
+
+.category {
+  margin-bottom: 60px;
+}
+
+.category-lead {
+  color: #D81F32;
+  font-weight: bold;
+  padding: 15px;
+  padding-left: 0;
+}
+
+.category-title {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 26px;
+}
+
+.sw {
+  margin-bottom: 74px;
+}
+
+.sw-body-tag {
+  background: #D81F32;
+  padding: 3px 15px;
+  color: #fff;
+  width: 90px;
+  font-size: 12px;
+  margin-bottom: 9px;
+}
+
+.sw-body-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.sw-img {
+  margin-bottom: 36px;
+}
+
+.sw-body {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+  .sw-body {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+
+.sw-body-text {
+  width: calc(100% - 423px);
+  margin-right: 40px;
+  line-height: 2.25;
+}
+
+@media (max-width: 767px) {
+  .sw-body-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.company-info {
+  border: 1px solid #707070;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 40px;
+  border: 1px solid #707070;
+}
+
+th {
+  width: 160px;
+  font-weight: 700;
+  color: #fff;
+  background: #999999;
+}
+
+td {
+  padding-left: 16px;
+  padding-right: 54px;
+}
+
+.sw-btn {
+  padding: 16px 0;
+  text-align: center;
+  background: #01B3A7;
+  border-radius: 5px;
+  width: 283px;
+  margin: 0 auto;
+}
+
+.sw-btn a {
+  color: #fff;
+}
+
+.sw-related-title {
+  font-size: 26px;
+  font-weight: 700;
+  padding: 17px 0 17px 20px;
+  border-radius: 5px;
+  background: #EBEBEB;
+  border-top: 6px solid #D81F32;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.sw-related-title::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 7.5px 0 7.5px;
+  border-color: #EBEBEB transparent transparent transparent;
+  bottom: -15px;
+  left: 20px;
+}
+
+.sw-related-items {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .sw-related-items {
+    display: block;
+  }
+}
+
+.sw-related-item {
+  width: calc(33.3% - 38px * 2 / 3);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.sw-related-item:not(:nth-child(3n + 1)) {
+  margin-left: 38px;
+}
+
+@media (max-width: 767px) {
+  .sw-related-item:not(:nth-child(3n + 1)) {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .sw-related-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.related-body-tag {
+  background: #D81F32;
+  padding: 2px 15px;
+  color: #fff;
+  width: 90px;
+  font-size: 12px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.sw-related-body {
+  padding: 20px;
+}
+
+.sw-related-img img {
+  min-height: 200px;
+}
+
+.related-body-title {
+  font-size: 18px;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+}
+
+.footer-title {
+  padding: 61px 24px 7px 0;
+}
+
+@media (max-width: 767px) {
+  .footer-title {
+    padding-right: 0;
+    padding-top: 30px;
+  }
+}
+
+.footer-subtitle {
+  font-size: 14px;
+}
+
+.footer-upper {
+  background: #868686;
+}
+
+.footer-subtitle {
+  padding-bottom: 38px;
+}
+
+@media (max-width: 767px) {
+  .footer-subtitle {
+    padding-bottom: 20px;
+  }
+}
+
+.footer-nav {
+  padding-bottom: 55px;
+}
+
+@media (max-width: 767px) {
+  .footer-nav {
+    padding-bottom: 30px;
+  }
+}
+
+.footer-nav-menu {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .footer-nav-menu {
+    display: block;
+  }
+}
+
+.footer-nav-item {
+  padding-right: 41px;
+  font-size: 13px;
+}
+
+.footer-nav-item:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 767px) {
+  .footer-nav-item {
+    padding-right: 0;
+  }
+}
+
+.footer-copyright {
+  background: #464646;
+  font-size: 11px;
+  padding: 20px;
+}
